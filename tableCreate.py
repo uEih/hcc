@@ -1,4 +1,4 @@
-conn = sqlite3.connect('example.db')
+conn = sqlite3.connect('cwp.db')
 c = conn.cursor()
 
 #create table only once
