@@ -12,22 +12,22 @@
 <body>
 
 <div class="container">
-  	<div class="headerRight">
-  		<div class="headerLeft">
-  			Upload &nbsp;&nbsp;&nbsp; 
-  			Search  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  			Log Out
-  		</div>
- 	COURT WATCH
- 	</div>
+  	<div class="headerMain">
+ 	    COURT WATCH
+ 	  </div>
 
   	<div class="content">
   		<div class="innercontent">
-  			<h3>Select Excel File to Upload</h3>
+  			<h3>Welcome to Court Watch<br>Please log in</h3>
 
-  			<form name="myWebForm" method="post">
-			<input type="file" name="uploadField" />
-			</form>
+  			<form name="form1" method="post" action="checklogin.php">
+        Username: <input name="myusername" type="text" id="myusername"><br>
+        Password: <input name="mypassword" type="text" id="mypassword"><br>
+        <input type="submit" name="Submit" value="Login">
+        </form>
+
+        <p>Powered by:<br>
+        <img src="logo.jpg" width="100px" height"100px"></p>
 
   		</div>
 	</div>
