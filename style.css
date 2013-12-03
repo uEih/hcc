@@ -2,8 +2,17 @@ body {
 	font-family:"Times New Roman",Georgia,Serif;
 	padding-top: 0px;
   	padding-bottom: 20px;
- 	background-color:#eee;
-  	color: #fff;
+ 	background: rgb(238,238,238); /* Old browsers */
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+  	background-attachment: fixed;
+	color: #fff;
 	margin: 0;
 }
 
@@ -35,14 +44,14 @@ h3{
 
 .headerRight a:link {
 	color:#336633;
-	text-decoration: underline; 
+	text-decoration: none; 
 }
 .headerRight a:visited {
 	color:#336633;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .headerRight a:hover, a:active, a:focus { 
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .container {
@@ -52,18 +61,21 @@ h3{
 }
 
 .headerRight {
+	font-size: 18px;
+	font-weight: bold;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 15px;
   	padding-right: 15px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	background-image:url('img/head.png');
 	background-color: #cccc66;
 	color:#336633;
+	border-bottom: 1px solid;
 }
 
 .headerMain{
-
 	font-size: 80px;
 	text-align: center;
 	padding-top: 10px;
@@ -73,6 +85,7 @@ h3{
 	margin-top: 50px;
 	margin-bottom: -90px;
 	color:#336633;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
 
 .headerLeft{
@@ -117,4 +130,29 @@ h3{
      background:#fff;
      color: #000;
      box-shadow: 5px 5px 5px #888888;
+}
+
+.logcontent{
+	 text-align: center;
+     width:500px;
+     margin: 0 auto;
+     margin-top: 150px;
+     padding: 25px;
+     -moz-border-radius: 15px;
+	 border-radius: 15px;
+	 border-width: 1px;
+	 border-style: solid;
+	 border-color: #336633;
+     background:#fff;
+     color: #000;
+     box-shadow: 5px 5px 5px #888888;
+}
+
+.logcontent a:link{
+	font-size: 11px;
+}
+
+.logcontent h3{
+	font-size: 30px;
+	margin-bottom: 12px;
 }
