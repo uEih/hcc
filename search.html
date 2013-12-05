@@ -24,13 +24,22 @@
  	</div>
 
   	<div class="content">
-  		<div class="innercontent">
-  			<h3>Enter a case number to search by</h3>
+  		<div class="searchcontent">
+  			<h3>Search Forms</h3>
 
         <form action="form.php" method="post">
-          Search: <input type="text" name="term" /><br />
+          Search: <input type="text" name="term" />
+		<select name="searchOptions">
+		<option value="1">Form Number</option>
+		<option value="2">Voulenteer Number</option>
+		<option value="3">Case Number</option>
+		<option value="4">Something Else</option>
+	</select>
+	<br /><br>
         <input type="submit" name="submit" value="Submit" />
         </form>
+
+
 
   		</div>
 	</div>
