@@ -28,26 +28,35 @@
   			<h3>Search Results</h3>
 
         <table width="100%" border="1px solid">
-          <tr>
-            <td><a href="form.html">Form #4A</a></td>
-            <td><a href="form.html">Voulenteer #19</a></td>
-            <td><a href="form.html">Case #06FL06598</a></td>
-          </tr>
-          <tr>
-            <td><a href="form.html">Form #9C</a></td>
-            <td><a href="form.html">Voulenteer #02</a></td>
-            <td><a href="form.html">Case #09FL06235</a></td>
-          </tr>
-          <tr>
-            <td><a href="form.html">Form #11G</a></td>
-            <td><a href="form.html">Voulenteer #35</a></td>
-            <td><a href="form.html">Case #10FL02285</a></td>
-          </tr>
-          <tr>
-            <td><a href="form.html">Form #19R</a></td>
-            <td><a href="form.html">Voulenteer #12</a></td>
-            <td><a href="form.html">Case #07FL01533</a></td>
-          </tr>
+			<?php
+			$con=mysqli_connect("url","user","pass","exceltable");
+			// Check connection
+			if (mysqli_connect_errno())
+			  {
+			  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+			  }
+
+			$result = mysqli_query($con,"SELECT * FROM exceltable WHERE caseNumber LIKE '%term%'");
+
+			echo "<table border='1'>
+			<tr>
+			<th>Form Number</th>
+			<th>Voulenteer Number</th>
+			<th>Case Number</th>
+			</tr>";
+
+			while($row = mysqli_fetch_array($result))
+			  {
+			  echo "<tr>";
+			  echo "<td>" . $row['caseNumber'] . "</td>";
+			  echo "<td>" . $row['formNumber'] . "</td>";
+			  echo "<td>" . $row['caseNumber'] . "</td>";
+			  echo "</tr>";
+			  }
+			echo "</table>";
+
+			mysqli_close($con);
+			?>
         </table>
 
   		</div>
