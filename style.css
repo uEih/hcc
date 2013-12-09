@@ -134,7 +134,7 @@ h3{
 
 
 .qcontent{
-	 text-align: center;
+	 text-align: left;
      width:850px;
      margin: 0 auto;
      margin-top: 50px;
@@ -170,6 +170,22 @@ h3{
      width:480px;
      margin: 0 auto;
      margin-top: 150px;
+     padding: 25px;
+     -moz-border-radius: 15px;
+	 border-radius: 15px;
+	 border-width: 1px;
+	 border-style: solid;
+	 border-color: #336633;
+     background:#fff;
+     color: #000;
+     box-shadow: 5px 5px 5px #888888;
+}
+
+.searchcontent2{
+	 text-align: center;
+     width:480px;
+     margin: 0 auto;
+     margin-top: 50px;
      padding: 25px;
      -moz-border-radius: 15px;
 	 border-radius: 15px;
