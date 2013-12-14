@@ -28,290 +28,292 @@
   			<center><h2>Court Watch Questionnaire</h2></center>
 
 <!--Phillips's Code-->
-			
-State/County: Sacramento, California&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Volunteer #: <input type="text" name="intro_volunteerNumber"><br><br>
+<!-- Commented out for demo purposes -->
+<!-- <form action="confirm.php" method="post">	-->
+<form action="confirm.html" method="post">			
+State/County: Sacramento, California&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Volunteer #: <input class="textbox" type="text" name="intro_volunteerNumber"><br><br>
 
-Case Short Title: <input type="text" name="intro_caseShortTitle"><br>
-Case Number: <input type="text" name="intro_caseNumber"><br>
-Department: <input type="text" name="intro_department"><br>
-Hearing Date: <input type="text" name="intro_hearingDate"><br>
-Hearing Time: <input type="text" name="intro_hearingTime"><br>
-Judge/Comissioner: <input type="text" name="intro_judgeCommissioner">
-<input type="radio" name="intro_judgeSex" value="male">Male
-<input type="radio" name="intro_judgeSex" value="female">Female<br>
+Case Short Title: <input class="textbox" type="text" name="intro_caseShortTitle"><br>
+Case Number: <input class="textbox" type="text" name="intro_caseNumber">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Department: <input class="textbox" type="text" name="intro_department"><br>
+Hearing Date: <input class="textbox" type="text" name="intro_hearingDate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Hearing Time: <input class="textbox" type="text" name="intro_hearingTime"><br>
+Judge/Comissioner: <input class="textbox" type="text" name="intro_judgeCommissioner">
+<input class="textbox" type="radio" name="intro_judgeSex" value="male">Male
+<input class="textbox" type="radio" name="intro_judgeSex" value="female">Female<br>
 
-Petitioner's Name: <input type="text" name="intro_petitioner">
-<input type="radio" name="intro_petitionerSex" value="male">Male
-<input type="radio" name="intro_petitionerSex" value=female">Female<br>
+Petitioner's Name: <input class="textbox" type="text" name="intro_petitioner">
+<input class="textbox" type="radio" name="intro_petitionerSex" value="male">Male
+<input class="textbox" type="radio" name="intro_petitionerSex" value=female">Female<br>
 
-Resopndent's Name: <input type="text" name="intro_respondent">
-<input type="radio" name="intro_respondentSex" value="male">Male
-<input type="radio" name="intro_respondentSex" value="female">Female<br>
+Resopndent's Name: <input class="textbox" type="text" name="intro_respondent">
+<input class="textbox" type="radio" name="intro_respondentSex" value="male">Male
+<input class="textbox" type="radio" name="intro_respondentSex" value="female">Female<br>
 
 Type of Hearing:<br>
-<input type="radio" name="intro_typeOfHearing" value="exParte">Ex Parte
-<input type="radio" name="intro_typeOfHearing" value="lawAndMotion">Law and Motion
-<input type="radio" name="intro_typeOfHearing" value="hearing">Hearing
-<input type="radio" name="intro_typeOfHearing" value="trial">Trial
-<input type="radio" name="intro_typeOfHearing" value="settlementConference">Settlement Conference
-<input type="radio" name="intro_typeOfHearing" value="Other">Other<br>
-(Identify if other) <input type="text" name="intro_hearingTime"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="intro_typeOfHearing" value="exParte">Ex Parte
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="intro_typeOfHearing" value="lawAndMotion">Law and Motion
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="intro_typeOfHearing" value="hearing">Hearing
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="intro_typeOfHearing" value="trial">Trial
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="intro_typeOfHearing" value="settlementConference">Settlement Conference
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="intro_typeOfHearing" value="Other">Other<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Identify if other) <input class="textbox" type="text" name="intro_hearingTime"><br><br>
 
 <u>Courtroom Appearances:</u><br>
 Petitioner present?
-<input type="radio" name="CA_petitionerPresent" value="yes">Yes
-<input type="radio" name="CA_petitionerPresent" value="no">No<br>
+<input class="textbox" type="radio" name="CA_petitionerPresent" value="yes">Yes
+<input class="textbox" type="radio" name="CA_petitionerPresent" value="no">No<br>
 Who represented the petitioner?
-<input type="radio" name="CA_petitionerRepresentation" value="counsel">Represented by counsel
-<input type="radio" name="CA_petitionerRepresentation" value="prose">Pro se<br><br>
+<input class="textbox" type="radio" name="CA_petitionerRepresentation" value="counsel">Represented by counsel
+<input class="textbox" type="radio" name="CA_petitionerRepresentation" value="prose">Pro se<br><br>
 Respondent present?
-<input type="radio" name="CA_respondentPresent" value="yes">Yes
-<input type="radio" name="CA_respondentPresent" value="no">No<br>
+<input class="textbox" type="radio" name="CA_respondentPresent" value="yes">Yes
+<input class="textbox" type="radio" name="CA_respondentPresent" value="no">No<br>
 Who represented the respondent?
-<input type="radio" name="CA_respondentRepresentation" value="counsel">Represented by counsel
-<input type="radio" name="CA_respondentRepresentation" value="prose">Pro se<br><br>
+<input class="textbox" type="radio" name="CA_respondentRepresentation" value="counsel">Represented by counsel
+<input class="textbox" type="radio" name="CA_respondentRepresentation" value="prose">Pro se<br><br>
 
 Attorney for Child(ren)?:
-<input type="radio" name="CA_attorneyForChild" value="yes">Yes
-<input type="radio" name="CA_attorneyForChild" value="no">No<br>
-Attorney name: <input type="text" name="CA_attorneyName">
-<input type="radio" name="CA_attorneyGender" value="male">Male
-<input type="radio" name="CA_attorneyGender" value="female">Female<br>
-Other: <input type="text" name="CA_other"><br><br>
+<input class="textbox" type="radio" name="CA_attorneyForChild" value="yes">Yes
+<input class="textbox" type="radio" name="CA_attorneyForChild" value="no">No<br>
+Attorney name: <input class="textbox" type="text" name="CA_attorneyName">
+<input class="textbox" type="radio" name="CA_attorneyGender" value="male">Male
+<input class="textbox" type="radio" name="CA_attorneyGender" value="female">Female<br>
+Other: <input class="textbox" type="text" name="CA_other"><br><br>
 
-If one of the parties was not present, what reason was given for the non-appearance?<input type="text" name="CA_reason"><br><br>
+If one of the parties was not present, what reason was given for the non-appearance?<br><input class="textbox" type="text" name="CA_reason"><br><br>
 
 Did anyone appear by phone?
-<input type="radio" name="CA_phone" value="yes">Yes
-<input type="radio" name="CA_phone" value="no">No<br>
+<input class="textbox" type="radio" name="CA_phone" value="yes">Yes
+<input class="textbox" type="radio" name="CA_phone" value="no">No<br>
 
 Did anyone Skype in?
-<input type="radio" name="CA_skype" value="yes">Yes
-<input type="radio" name="CA_skype" value="no">No<br>
+<input class="textbox" type="radio" name="CA_skype" value="yes">Yes
+<input class="textbox" type="radio" name="CA_skype" value="no">No<br>
 
 Were the parties given a minute order at the termination of the hearing?
-<input type="radio" name="CA_minuteOrder" value="yes">Yes
-<input type="radio" name="CA_minuteOrder" value="no">No<br><br>
+<input class="textbox" type="radio" name="CA_minuteOrder" value="yes">Yes
+<input class="textbox" type="radio" name="CA_minuteOrder" value="no">No<br><br>
 
-<b><u>ISSUES/LITIGATION</u></b>
+<b><u>ISSUES/LITIGATION</u></b><br><br>
 What issues were being heard/considered at the hearing?<br>
-<input type="radio" name="IL_issues" value="divorce">Divorce
-<input type="radio" name="IL_issues" value="childCustody">Child Custody
-<input type="radio" name="IL_issues" value="childSupport">Child Support<br>
-<input type="radio" name="IL_issues" value="childVisitation">Child Visitation
-<input type="radio" name="IL_issues" value="restrainingOrder">Restraining Order
-<input type="radio" name="IL_issues" value="spousalSupport">Spousal Support<br>
-<input type="radio" name="IL_issues" value="contempt">Contempt
-<input type="radio" name="IL_issues" value="attorneyFees">Attorney Fees<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="IL_issues" value="divorce">Divorce
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="IL_issues" value="childCustody">Child Custody
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="IL_issues" value="childSupport">Child Support<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="IL_issues" value="childVisitation">Child Visitation
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="IL_issues" value="restrainingOrder">Restraining Order
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="IL_issues" value="spousalSupport">Spousal Support<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="IL_issues" value="contempt">Contempt
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="IL_issues" value="attorneyFees">Attorney Fees<br><br>
 
 Was the case continued to a future date?
-<input type="radio" name="IL_futureDateYesNo" value="yes">Yes
-<input type="radio" name="IL_futureDateYesNo" value="no">No<br>
+<input class="textbox" type="radio" name="IL_futureDateYesNo" value="yes">Yes
+<input class="textbox" type="radio" name="IL_futureDateYesNo" value="no">No<br>
 
-If yes, what date?<input type="text" name="CA_other"><br>
+If yes, what date?<input class="textbox" type="text" name="CA_other"><br><br>
 Were any stipulations presented to the court?
-<input type="radio" name="IL_stipulations" value="yes">Yes
-<input type="radio" name="IL_stipulations" value="no">No<br>
+<input class="textbox" type="radio" name="IL_stipulations" value="yes">Yes
+<input class="textbox" type="radio" name="IL_stipulations" value="no">No<br>
 If yes, did the judge ask the parties if they understood the stipulation and its consequences, and if they entered into it freely and without coercion, undue influence, or duress?
-<input type="radio" name="IL_understoodStipulation" value="yes">Yes
-<input type="radio" name="IL_understoodStipulation" value="no">No<br><br>
+<input class="textbox" type="radio" name="IL_understoodStipulation" value="yes">Yes
+<input class="textbox" type="radio" name="IL_understoodStipulation" value="no">No<br><br>
 
-<b><u>CHILD CUSTODY/VISITATION/CHILD SUPPORT ORDERS</u></b><br>
+<b><u>CHILD CUSTODY/VISITATION/CHILD SUPPORT ORDERS</u></b><br><br>
 What child custody/visitation orders were in place prior to the hearing?<br>
-<input type="radio" name="CC_orders" value="jointPhycialCustody">Joint Physical Custody
-<input type="radio" name="CC_orders" value="jointLegalCustody">Joint Legal Custody<br>
-<input type="radio" name="CC_orders" value="legalCustody">Legal Custody to (Pet/Resp)
-<input type="radio" name="CC_orders" value="physicalCustody">Physical Custody to (Pet/Resp)<br>
-<input type="radio" name="CC_orders" value="unsupervisedVisitation">Unsupervised Visitation to (Pet/Resp)
-<input type="radio" name="CC_orders" value="superisedVisitation">Supervised Visitatino to (Pet/Resp)<br><br>
+<input class="textbox" type="radio" name="CC_orders" value="jointPhycialCustody">Joint Physical Custody
+<input class="textbox" type="radio" name="CC_orders" value="jointLegalCustody">Joint Legal Custody<br>
+<input class="textbox" type="radio" name="CC_orders" value="legalCustody">Legal Custody to (Pet/Resp)
+<input class="textbox" type="radio" name="CC_orders" value="physicalCustody">Physical Custody to (Pet/Resp)<br>
+<input class="textbox" type="radio" name="CC_orders" value="unsupervisedVisitation">Unsupervised Visitation to (Pet/Resp)
+<input class="textbox" type="radio" name="CC_orders" value="superisedVisitation">Supervised Visitatino to (Pet/Resp)<br><br>
 
 Did either party request a chance in an existing child custody or visitation (parenting time) order?<br>
 Custody:
-<input type="radio" name="CC_custodyOrder" value="yes">Yes
-<input type="radio" name="CC_custodyOrder" value="no">No<br>
+<input class="textbox" type="radio" name="CC_custodyOrder" value="yes">Yes
+<input class="textbox" type="radio" name="CC_custodyOrder" value="no">No<br>
 Visitation (parenting time):
-<input type="radio" name="CC_visitationOrder" value="yes">Yes
-<input type="radio" name="CC_visitationOrder" value="no">No<br>
+<input class="textbox" type="radio" name="CC_visitationOrder" value="yes">Yes
+<input class="textbox" type="radio" name="CC_visitationOrder" value="no">No<br>
 
 If yes, who was making the request?
-<input type="radio" name="CC_madeRequest" value="petitioner">Petitioner
-<input type="radio" name="CC_madeRequest" value="respondent">Respondent<br><br>
+<input class="textbox" type="radio" name="CC_madeRequest" value="petitioner">Petitioner
+<input class="textbox" type="radio" name="CC_madeRequest" value="respondent">Respondent<br><br>
 
 What reason was given for requesting the change in custody/parentint time?<br>
-<input type="radio" name="CC_reason" value="domesticViolence">Domestic Violence
-<input type="radio" name="CC_reason" value="childAbuse">Child Abuse/Neglect
-<input type="radio" name="CC_reason" value="relocation">Relocation<br>
-<input type="radio" name="CC_reason" value="educationalIssues">Educational Issues
-<input type="radio" name="CC_reason" value="childBehavioral">Child Behavioral Issues
-<input type="radio" name="CC_reason" value="childWishes">Child's Wishes<br>
-<input type="radio" name="CC_reason" value="developmentalStage">Developmental Stage of Child
-<input type="radio" name="CC_reason" value="other">Other
-(describe)<input type="text" name="CC_otherReason"><br>
+<input class="textbox" type="radio" name="CC_reason" value="domesticViolence">Domestic Violence
+<input class="textbox" type="radio" name="CC_reason" value="childAbuse">Child Abuse/Neglect
+<input class="textbox" type="radio" name="CC_reason" value="relocation">Relocation<br>
+<input class="textbox" type="radio" name="CC_reason" value="educationalIssues">Educational Issues
+<input class="textbox" type="radio" name="CC_reason" value="childBehavioral">Child Behavioral Issues
+<input class="textbox" type="radio" name="CC_reason" value="childWishes">Child's Wishes<br>
+<input class="textbox" type="radio" name="CC_reason" value="developmentalStage">Developmental Stage of Child
+<input class="textbox" type="radio" name="CC_reason" value="other">Other
+(describe)<input class="textbox" type="text" name="CC_otherReason"><br>
 
 Were any changes made in the custody or parenting time orders?
-<input type="radio" name="CC_changesInOrders" value="yes">Yes
-<input type="radio" name="CC_changesInOrders" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_changesInOrders" value="yes">Yes
+<input class="textbox" type="radio" name="CC_changesInOrders" value="no">No<br><br>
 How was the <i><u>custody</u></i> order changed?<br>
-<input type="radio" name="CC_custodyChanged" value="soleLegal">Sole legal to (Pet/Resp)
-<input type="radio" name="CC_custodyChanged" value="jointLegal">Joint legal to (Pet/Resp)<br>
-<input type="radio" name="CC_custodyChanged" value="solePhysical">Sole physical to (Pet/Resp)
-<input type="radio" name="CC_custodyChanged" value="jointPhysical">Joint physical (equal/primary to Pet/primary to Resp)<br><br>
+<input class="textbox" type="radio" name="CC_custodyChanged" value="soleLegal">Sole legal to (Pet/Resp)
+<input class="textbox" type="radio" name="CC_custodyChanged" value="jointLegal">Joint legal to (Pet/Resp)<br>
+<input class="textbox" type="radio" name="CC_custodyChanged" value="solePhysical">Sole physical to (Pet/Resp)
+<input class="textbox" type="radio" name="CC_custodyChanged" value="jointPhysical">Joint physical (equal/primary to Pet/primary to Resp)<br><br>
 
 How was the <i><u>visitation</u></i> (parenting time)order changed?<br>
-<input type="radio" name="CC_visitationChanged" value="increased">Increased for (Pet/Resp)
-<input type="radio" name="CC_visitationChanged" value="terminated">Terminated for (Pet/Resp)
-<input type="radio" name="CC_visitationChanged" value="supervised">Supervised for (Pet/Resp)<br><br>
+<input class="textbox" type="radio" name="CC_visitationChanged" value="increased">Increased for (Pet/Resp)
+<input class="textbox" type="radio" name="CC_visitationChanged" value="terminated">Terminated for (Pet/Resp)
+<input class="textbox" type="radio" name="CC_visitationChanged" value="supervised">Supervised for (Pet/Resp)<br><br>
 
 Were there any prior or current allegations of domestic violence or child abuse against a party who received <u><i>increased</i></u> custody or visitation?
-<input type="radio" name="CC_priorAllegations" value="yes">Yes
-<input type="radio" name="CC_priorAllegations" value="no">No
-<input type="radio" name="CC_priorAllegations" value="unknown">Unknown<br><br>
+<input class="textbox" type="radio" name="CC_priorAllegations" value="yes">Yes
+<input class="textbox" type="radio" name="CC_priorAllegations" value="no">No
+<input class="textbox" type="radio" name="CC_priorAllegations" value="unknown">Unknown<br><br>
 
 Was a party requesting increased custody or parenting time reported to be in arrears in child support?
-<input type="radio" name="CC_requestingIncreasedCustody" value="yes">Yes
-<input type="radio" name="CC_requestingIncreasedCustody" value="no">No
-<input type="radio" name="CC_requestingIncreasedCustody" value="unknown">Uknown<br><br>
+<input class="textbox" type="radio" name="CC_requestingIncreasedCustody" value="yes">Yes
+<input class="textbox" type="radio" name="CC_requestingIncreasedCustody" value="no">No
+<input class="textbox" type="radio" name="CC_requestingIncreasedCustody" value="unknown">Uknown<br><br>
 
 Was either party atempting to change a child support order?
-<input type="radio" name="CC_attemptToChangeChildSupport" value="yes">Yes
-<input type="radio" name="CC_attemptToChangeChildSupport" value="no">No
-<input type="radio" name="CC_attemptToChangeChildSupport" value="Unknown">Unknown<br><br>
+<input class="textbox" type="radio" name="CC_attemptToChangeChildSupport" value="yes">Yes
+<input class="textbox" type="radio" name="CC_attemptToChangeChildSupport" value="no">No
+<input class="textbox" type="radio" name="CC_attemptToChangeChildSupport" value="Unknown">Unknown<br><br>
 
 If yes, who was attempting to change the order?
-<input type="radio" name="CC_who Attempted" value="primary">Primary Custodial Parent
-<input type="radio" name="CC_who Attempted" value="other">Other Parent<br><br>
+<input class="textbox" type="radio" name="CC_who Attempted" value="primary">Primary Custodial Parent
+<input class="textbox" type="radio" name="CC_who Attempted" value="other">Other Parent<br><br>
 
 Was the support order changed?
-<input type="radio" name="CC_supportOrderChanged" value="yes">Yes
-<input type="radio" name="CC_supportOrderChanged" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_supportOrderChanged" value="yes">Yes
+<input class="textbox" type="radio" name="CC_supportOrderChanged" value="no">No<br><br>
 If "yes" was the order increased or decreased?
-<input type="radio" name="CC_supportIncreased" value="increased">Increased
-<input type="radio" name="CC_supportIncreased" value="decreased">Decreased<br><br>
+<input class="textbox" type="radio" name="CC_supportIncreased" value="increased">Increased
+<input class="textbox" type="radio" name="CC_supportIncreased" value="decreased">Decreased<br><br>
 
 <b><u>DUE PROCESS/CONSTITUTIONAL RIGHTS</u></b><br>
 Was a court reporter present to make a record of the hearing?
-<input type="radio" name="CC_supportOrderChanged" value="yes">Yes
-<input type="radio" name="CC_supportOrderChanged" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_supportOrderChanged" value="yes">Yes
+<input class="textbox" type="radio" name="CC_supportOrderChanged" value="no">No<br><br>
 
 If no court reporter was present, did a (party) or (child's attorney) request a court reporter and/or object to the hearing proceeding without a court reporter?
-<input type="radio" name="CC_noReporterPresent" value="yes">Yes
-<input type="radio" name="CC_noReporterPresent" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_noReporterPresent" value="yes">Yes
+<input class="textbox" type="radio" name="CC_noReporterPresent" value="no">No<br><br>
 
 If yes, did the hearing proceed over the objection?
-<input type="radio" name="CC_hearingProceed" value="yes">Yes
-<input type="radio" name="CC_hearingProceed" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_hearingProceed" value="yes">Yes
+<input class="textbox" type="radio" name="CC_hearingProceed" value="no">No<br><br>
 
 Did either party ask to audio/video record the hearing?
-<input type="radio" name="CC_askToRecord" value="yes">Yes
-<input type="radio" name="CC_askToRecord" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_askToRecord" value="yes">Yes
+<input class="textbox" type="radio" name="CC_askToRecord" value="no">No<br><br>
 
 If yes, was the request granted?
-<input type="radio" name="CC_requestGranted" value="yes">Yes
-<input type="radio" name="CC_requestGranted" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_requestGranted" value="yes">Yes
+<input class="textbox" type="radio" name="CC_requestGranted" value="no">No<br><br>
 
 Did any meeting/discussion take place in chambers (other than examination of a child witness)?
-<input type="radio" name="CC_inChambers" value="yes">Yes
-<input type="radio" name="CC_inChambers" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_inChambers" value="yes">Yes
+<input class="textbox" type="radio" name="CC_inChambers" value="no">No<br><br>
 
 If yes, who went into chambers for the meeting/discussion?<br>
-<input type="radio" name="CC_wentIntoChambers" value="petitionersAttorney">Petitioner's Attorney
-<input type="radio" name="CC_wentIntoChambers" value="respondentsAttorney">Respondent's Attorney
-<input type="radio" name="CC_wentIntoChambers" value="childsAttorney">Child's Attorney<br>
-<input type="radio" name="CC_wentIntoChambers" value="petitioner">Petitioner
-<input type="radio" name="CC_wentIntoChambers" value="respondent">Respondent
-<input type="radio" name="CC_wentIntoChambers" value="courtReporter">Court Reporter<br><br>
+<input class="textbox" type="radio" name="CC_wentIntoChambers" value="petitionersAttorney">Petitioner's Attorney
+<input class="textbox" type="radio" name="CC_wentIntoChambers" value="respondentsAttorney">Respondent's Attorney
+<input class="textbox" type="radio" name="CC_wentIntoChambers" value="childsAttorney">Child's Attorney<br>
+<input class="textbox" type="radio" name="CC_wentIntoChambers" value="petitioner">Petitioner
+<input class="textbox" type="radio" name="CC_wentIntoChambers" value="respondent">Respondent
+<input class="textbox" type="radio" name="CC_wentIntoChambers" value="courtReporter">Court Reporter<br><br>
 
 If either petitoner and/or respondent were excluded from the in-chambers meeting/discussion, what reason was given for the exclusion?
-<input type="text" name="CC_exclusionReason"><br><br>
+<input class="textbox" type="text" name="CC_exclusionReason"><br><br>
 
 If a record was made of the in-chambers meeting by a court reporter, did the judge order the record to be sealed?
-<input type="radio" name="CC_orderToBeSealed" value="yes">Yes
-<input type="radio" name="CC_orderToBeSealed" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_orderToBeSealed" value="yes">Yes
+<input class="textbox" type="radio" name="CC_orderToBeSealed" value="no">No<br><br>
 
 Was any report/information from a court appointee presented to the court?
-<input type="radio" name="CC_informationFromApointee" value="yes">Yes
-<input type="radio" name="CC_informationFromApointee" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_informationFromApointee" value="yes">Yes
+<input class="textbox" type="radio" name="CC_informationFromApointee" value="no">No<br><br>
 
 If yes:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Who was the author of the report or supplier of information? (Name)<input type="text" name="CC_reportAuthorName"><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_reportAuthor" value="mediator">Mediator
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_reportAuthor" value="evaluator/investigator">Evaluator/Investigator
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_reportAuthor" value="courtAppointedTherapist">Court Appointe Therapist<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_reportAuthor" value="coParentingCoordinator">Co-parenting Coordinator
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_reportAuthor" value="childsAtorney">Child's Attorney
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_reportAuthor" value="other">Other:<input type="text" name="CC_reportAuthorOther"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Who was the author of the report or supplier of information? (Name)<input class="textbox" type="text" name="CC_reportAuthorName"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_reportAuthor" value="mediator">Mediator
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_reportAuthor" value="evaluator/investigator">Evaluator/Investigator
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_reportAuthor" value="courtAppointedTherapist">Court Appointe Therapist<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_reportAuthor" value="coParentingCoordinator">Co-parenting Coordinator
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_reportAuthor" value="childsAtorney">Child's Attorney
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_reportAuthor" value="other">Other:<input class="textbox" type="text" name="CC_reportAuthorOther"><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Did either party object to the information/report being read and/or considered by the court?
-<input type="radio" name="CC_objectToInformation" value="yes">Yes
-<input type="radio" name="CC_objectToInformation" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_objectToInformation" value="yes">Yes
+<input class="textbox" type="radio" name="CC_objectToInformation" value="no">No<br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;If yes, what was the basis for the objection?<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_basisForObjection" value="didNotReceive">Party did not receive the report at least 10 days prior to the hearing<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_basisForObjection" value="hearsay">Report/information is hearsay<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_basisForObjection" value="notAuthenticated">Report/information was not authenticated<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_basisForObjection" value="other">Other:<input type="text" name="CC_basisForObjectionOther"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_basisForObjection" value="didNotReceive">Party did not receive the report at least 10 days prior to the hearing<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_basisForObjection" value="hearsay">Report/information is hearsay<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_basisForObjection" value="notAuthenticated">Report/information was not authenticated<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_basisForObjection" value="other">Other:<input class="textbox" type="text" name="CC_basisForObjectionOther"><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;How did the judge rule on the objection?
-<input type="radio" name="CC_judgeRuleObjection" value="sustained">Sustained/Granted
-<input type="radio" name="CC_judgeRuleObjection" value="overruled">Overruled/Denied<br><br>
+<input class="textbox" type="radio" name="CC_judgeRuleObjection" value="sustained">Sustained/Granted
+<input class="textbox" type="radio" name="CC_judgeRuleObjection" value="overruled">Overruled/Denied<br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;If overruled, was the objecting party given the opportunity to examine the author of the report/supplier of information on the witness stand at the hearing?<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="CC_opportunityToExamine" value="yes">Yes
-<input type="radio" name="CC_opportunityToExamine" value="no">No<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="radio" name="CC_opportunityToExamine" value="yes">Yes
+<input class="textbox" type="radio" name="CC_opportunityToExamine" value="no">No<br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;If no, was a hearing date set to allow for such examination?
-<input type="radio" name="CC_hearingDateSet" value="yes">Yes
-<input type="radio" name="CC_hearingDateSet" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_hearingDateSet" value="yes">Yes
+<input class="textbox" type="radio" name="CC_hearingDateSet" value="no">No<br><br>
 
 Did anyone else, including a party, present information to the court about something that was said, done, or known by someone who was not present in court to testify as a witness?
-<input type="radio" name="CC_anyoneElse" value="yes">Yes
-<input type="radio" name="CC_anyoneElse" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_anyoneElse" value="yes">Yes
+<input class="textbox" type="radio" name="CC_anyoneElse" value="no">No<br><br>
 
-If yes, who presented the information?<input type="text" name="CC_anyonePresented"><br><br>
+If yes, who presented the information?<input class="textbox" type="text" name="CC_anyonePresented"><br><br>
 
 Was a hearsay objection made to the information?
-<input type="radio" name="CC_hearsayObjectionMade" value="yes">Yes
-<input type="radio" name="CC_hearsayObjectionMade" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_hearsayObjectionMade" value="yes">Yes
+<input class="textbox" type="radio" name="CC_hearsayObjectionMade" value="no">No<br><br>
 
-If yes, who made the objection?<input type="text" name="CC_whoMadeHearsay"><br><br>
+If yes, who made the objection?<input class="textbox" type="text" name="CC_whoMadeHearsay"><br><br>
 
 Did the court hear and/or consider the information over the objection?
-<input type="radio" name="CC_courtHear" value="yes">Yes
-<input type="radio" name="CC_courtHear" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_courtHear" value="yes">Yes
+<input class="textbox" type="radio" name="CC_courtHear" value="no">No<br><br>
 
 Was any part denied the right to present evidence or winesses at the hearing?
-<input type="radio" name="CC_deniedRightToPresent" value="yes">Yes
-<input type="radio" name="CC_deniedRightToPresent" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_deniedRightToPresent" value="yes">Yes
+<input class="textbox" type="radio" name="CC_deniedRightToPresent" value="no">No<br><br>
 
 If yes, which party was denied?
-<input type="radio" name="CC_deniedParty" value="petitioner">Petitioner
-<input type="radio" name="CC_deniedParty" value="respondent">Respondent<br><br>
+<input class="textbox" type="radio" name="CC_deniedParty" value="petitioner">Petitioner
+<input class="textbox" type="radio" name="CC_deniedParty" value="respondent">Respondent<br><br>
 
-What reason was given for the denial?<input type="text" name="CC_denialReason"><br><br>
+What reason was given for the denial?<input class="textbox" type="text" name="CC_denialReason"><br><br>
 
 Was a future hearing date set to allow the party the opportunity to present evidence and/or witnesses?
-<input type="radio" name="CC_futureOpportunity" value="yes">Yes
-<input type="radio" name="CC_futureOpportunity" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_futureOpportunity" value="yes">Yes
+<input class="textbox" type="radio" name="CC_futureOpportunity" value="no">No<br><br>
 
 Was any party prevented from conducting discovery?
-<input type="radio" name="CC_preventedFromDiscovery" value="yes">Yes
-<input type="radio" name="CC_preventedFromDiscovery" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_preventedFromDiscovery" value="yes">Yes
+<input class="textbox" type="radio" name="CC_preventedFromDiscovery" value="no">No<br><br>
 
-If yes, what reason was given for the denial of the right to discovery?<input type="text" name="CC_denialReason"><br><br>
+If yes, what reason was given for the denial of the right to discovery?<input class="textbox" type="text" name="CC_denialReason"><br><br>
 
 Was each party given equal opportunity to speak and present his/her position to the court?
-<input type="radio" name="CC_equalOpportunity" value="yes">Yes
-<input type="radio" name="CC_equalOpportunity" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_equalOpportunity" value="yes">Yes
+<input class="textbox" type="radio" name="CC_equalOpportunity" value="no">No<br><br>
 
 If not, which party was given less opportunity?
-<input type="radio" name="CC_lessOpportunity" value="petitioner">Petitioner
-<input type="radio" name="CC_lessOpportunity" value="respondent">Respondent<br><br>
+<input class="textbox" type="radio" name="CC_lessOpportunity" value="petitioner">Petitioner
+<input class="textbox" type="radio" name="CC_lessOpportunity" value="respondent">Respondent<br><br>
 
 Was any arty discouraged in any way by the judge from speaking publicly about the case?
-<input type="radio" name="CC_discouraged" value="yes">Yes
-<input type="radio" name="CC_discouraged" value="no">No<br><br>
+<input class="textbox" type="radio" name="CC_discouraged" value="yes">Yes
+<input class="textbox" type="radio" name="CC_discouraged" value="no">No<br><br>
 
-If yes, what order or comment was made by the judge regarding speaking publicly about the case?<input type="text" name="CC_orderSpeakingPublicly"><br><br>
+If yes, what order or comment was made by the judge regarding speaking publicly about the case?<input class="textbox" type="text" name="CC_orderSpeakingPublicly"><br><br>
 			
 <!--Hieu's Code-->
 
@@ -319,7 +321,7 @@ If yes, what order or comment was made by the judge regarding speaking publicly 
 the hearing began?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="judicial_identify"> <span
 style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes<span
-style="mso-spacerun:yes">&nbsp; </span><INPUT TYPE="RADIO" VALUE="no"
+style="mso-spacerun:yes">&nbsp; </span><input class="textbox" type="RADIO" VALUE="no"
 NAME="judicial_identify"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>No</span> </p>
 
@@ -342,7 +344,7 @@ style="mso-spacerun:yes">&nbsp;&nbsp; </span></p>
 <p>Was the judge courteous and respectful toward the parties
 and attorneys throughout the hearing?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="judicial_curteous"> <span
-style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="judicial_curteous"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>No</span></p>
 
@@ -369,7 +371,7 @@ style="mso-spacerun:yes">&nbsp; </span></p>
 <p>Did anyone other than the judge speak disrespectfully to
 another person during the hearing?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="judicial_curteous2"> <span
-style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="judicial_curteous2"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>No</span></p>
 
@@ -397,9 +399,9 @@ style="mso-spacerun:yes">&nbsp; </span></p>
 
 
 <p>Did anyone raise his/her voice or behave aggressively during
-the hearings?<span>&nbsp; </span><INPUT TYPE="RADIO"
+the hearings?<span>&nbsp; </span><input class="textbox" type="RADIO"
 VALUE="yes" NAME="judicial_raiseVoice"> <span
-style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="judicial_raiseVoice"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>No</span></p>
 
@@ -422,7 +424,7 @@ style="mso-spacerun:yes">&nbsp; </span></p>
 <p>At any time during the hearing, did one of the parties cry?<span
 style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="judicial_cry"> <span
-style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="judicial_cry"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>No</span></p>
 
@@ -439,9 +441,9 @@ style="mso-spacerun:yes">&nbsp; </span></p>
 angry because a non-represented party did not understand a legal procedure or
 issue, or how to represent him/herself?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="judicial_understanding"> <span
-style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="judicial_understanding"> <span><span
-style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>No</span> <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>No</span> <input class="textbox" type="RADIO"
 VALUE="NA" NAME="judicial_understanding"> <span
 style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>N/A</p>
 
@@ -458,7 +460,7 @@ style="mso-spacerun:yes">&nbsp; </span></p>
 was incapable of meaningfully participating because of a physical condition,
 cognitive impairment, or emotional distress?<span> </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="judicial_participation"> <span
-style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="judicial_participation"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span>No</span></p>
 
@@ -502,9 +504,9 @@ style="mso-spacerun:yes">&nbsp; </span></p>
 
 <p>Did an un-represented party appear to be disadvantaged in
 the litigation because of the legal expertise of the other partyÕs attorney?<span
-style='mso-tab-count:1'>&nbsp; </span><INPUT TYPE="RADIO" VALUE="yes"
+style='mso-tab-count:1'>&nbsp; </span><input class="textbox" type="RADIO" VALUE="yes"
 NAME="impressions_disadvantage"> <span>&nbsp;
-</span>Yes <INPUT TYPE="RADIO" VALUE="no" NAME="impressions_disadvantage"> <span
+</span>Yes <input class="textbox" type="RADIO" VALUE="no" NAME="impressions_disadvantage"> <span
 class=GramE><span>&nbsp;&nbsp;</span>No</span> <INPUT
 TYPE="RADIO" VALUE="NA" NAME="impressions_disadvantage"> <span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>N/A<span
@@ -515,7 +517,7 @@ style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span></p>
 <p>Did it appear that both parties were held to the same
 standards of conduct?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="impressions_conduct"> <span
-style="mso-spacerun:yes">&nbsp; </span>Yes <INPUT TYPE="RADIO" VALUE="no"
+style="mso-spacerun:yes">&nbsp; </span>Yes <input class="textbox" type="RADIO" VALUE="no"
 NAME="impressions_conduct"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>No</span></p>
 
@@ -534,7 +536,7 @@ familiarity/camaraderie between a party or attorney for a party with other
 court appointees/officials/personnel that led to the appearance of bias in
 favor of one party?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="impressions_familiarity"> <span
-style="mso-spacerun:yes">&nbsp; </span>Yes <INPUT TYPE="RADIO" VALUE="no"
+style="mso-spacerun:yes">&nbsp; </span>Yes <input class="textbox" type="RADIO" VALUE="no"
 NAME="impressions_familiarity"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>No</span></p>
 
@@ -551,7 +553,7 @@ style="mso-spacerun:yes">&nbsp;</span></p>
 toward one of the parties by a judicial official?<span style='mso-tab-count:
 1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="impressions_favoritism"> <span
-style="mso-spacerun:yes">&nbsp; </span>Yes <INPUT TYPE="RADIO" VALUE="no"
+style="mso-spacerun:yes">&nbsp; </span>Yes <input class="textbox" type="RADIO" VALUE="no"
 NAME="impressions_favoritism"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>No</span></p>
 
@@ -580,15 +582,15 @@ style='font-size:14.0pt'>Accommodations</span></u></b><span style='font-size:
 <p>Was an interpreter present for either party?<span
 style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="accommodations_interpreter"> <span
-style="mso-spacerun:yes">&nbsp; </span>Yes <INPUT TYPE="RADIO" VALUE="no"
+style="mso-spacerun:yes">&nbsp; </span>Yes <input class="textbox" type="RADIO" VALUE="no"
 NAME="accommodations_interpreter"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>No</span></p>
 
 <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>If
 yes, on whose behalf was the interpreter present?<span style='mso-tab-count:
-1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT TYPE="RADIO" VALUE="petitioner"
+1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><input class="textbox" type="RADIO" VALUE="petitioner"
 NAME="accommodations_whoseInterpreter"> <span>&nbsp;
-</span>Petitioner <INPUT TYPE="RADIO" VALUE="Repondent"
+</span>Petitioner <input class="textbox" type="RADIO" VALUE="Repondent"
 NAME="accommdations_whoseInterpreter"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>Respondent</span> </p>
 
@@ -597,9 +599,9 @@ style="mso-spacerun:yes">&nbsp;&nbsp;</span>Respondent</span> </p>
 <p>Did either party ask for accommodations?<span
 style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="accommodations_ask"> <span
-style="mso-spacerun:yes">&nbsp; </span>Yes <INPUT TYPE="RADIO" VALUE="no"
+style="mso-spacerun:yes">&nbsp; </span>Yes <input class="textbox" type="RADIO" VALUE="no"
 NAME="accommodations_ask"> <span><span
-style="mso-spacerun:yes">&nbsp;&nbsp;</span>No</span> <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;</span>No</span> <input class="textbox" type="RADIO"
 VALUE="unknown" NAME="accommodations_ask"> <span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>Unknown</p>
 
@@ -609,7 +611,7 @@ yes:</p>
 <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Who
 requested the accommodations?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="petitioner" NAME="accomdations_whoRequested"> <span
-style="mso-spacerun:yes">&nbsp; </span>Petitioner <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp; </span>Petitioner <input class="textbox" type="RADIO"
 VALUE="respondent" NAME="accommodations_whoRequested"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>Respondent</span></p>
 
@@ -629,9 +631,9 @@ style="mso-spacerun:yes">&nbsp;</span></p>
 
 <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Did
 the judge reveal a diagnosis for which the accommodations were requested?<span
-style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT TYPE="RADIO"
+style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp; </span><input class="textbox" type="RADIO"
 VALUE="yes" NAME="accommodations_reveal"> <span>&nbsp;
-</span>Yes <INPUT TYPE="RADIO" VALUE="no" NAME="accommodations_reveal"> <span
+</span>Yes <input class="textbox" type="RADIO" VALUE="no" NAME="accommodations_reveal"> <span
 class=GramE><span>&nbsp;&nbsp;</span>No</span></p>
 
 
@@ -645,9 +647,9 @@ style='font-size:14.0pt'><o:p></o:p></span></p>
 <p>Did one party have a protective order in place against the
 other?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="yes" NAME="dv_protectiveOrder"> <span
-style="mso-spacerun:yes">&nbsp; </span>Yes <INPUT TYPE="RADIO" VALUE="no"
+style="mso-spacerun:yes">&nbsp; </span>Yes <input class="textbox" type="RADIO" VALUE="no"
 NAME="dv_protectiveOrder"> <span><span
-style="mso-spacerun:yes">&nbsp;&nbsp;</span>No</span> <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;&nbsp;</span>No</span> <input class="textbox" type="RADIO"
 VALUE="unknown" NAME="dv_protectiveOrder"> <span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>Unknown</p>
 
@@ -655,7 +657,7 @@ style="mso-spacerun:yes">&nbsp;&nbsp;</span>Unknown</p>
 style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>If
 yes, who was protected?<span>&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="petitioner" NAME="dv_protectedWho"> <span
-style="mso-spacerun:yes">&nbsp; </span>Petitioner <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp; </span>Petitioner <input class="textbox" type="RADIO"
 VALUE="respondent" NAME="dv_protectedWho"> <span><span
 style="mso-spacerun:yes">&nbsp;&nbsp;</span>Respondent</span> <INPUT
 TYPE="RADIO" NAME="dv_protectedWho" VALUE="child"> <span
@@ -664,20 +666,20 @@ style="mso-spacerun:yes">&nbsp;</span>Child(<span class=SpellE>ren</span>)</p>
 <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
 
 <p>Was the restrained party seeking to terminate the protective
-order?<span>&nbsp;&nbsp; </span><INPUT TYPE="RADIO"
-VALUE="yes" NAME="dv_terminate">  Yes <INPUT TYPE="RADIO" VALUE="no"
+order?<span>&nbsp;&nbsp; </span><input class="textbox" type="RADIO"
+VALUE="yes" NAME="dv_terminate">  Yes <input class="textbox" type="RADIO" VALUE="no"
 NAME="dv_terminate"> <span>&nbsp;</span>No</p>
 
 <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>If
 yes, was the protective order dismissed?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
-TYPE="RADIO" VALUE="yes" NAME="dv_dismissed">  Yes <INPUT TYPE="RADIO"
+TYPE="RADIO" VALUE="yes" NAME="dv_dismissed">  Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="dv_dismissed"> <span>&nbsp;</span>No</p>
 
 
 
 <p>Did anyone raise allegations of domestic violence at the
 hearing?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
-TYPE="RADIO" VALUE="yes" NAME="dv_allegations">  Yes <INPUT TYPE="RADIO"
+TYPE="RADIO" VALUE="yes" NAME="dv_allegations">  Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="dv_allegations"> <span
 style="mso-spacerun:yes">&nbsp;</span>No</p>
 
@@ -685,7 +687,7 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 yes, who raised the allegation?<span>&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="petitioner" NAME="dv_allegationsWho">  Petitioner <INPUT
 TYPE="RADIO" VALUE="respondent" NAME="dv_allegationsWho"> <span
-style="mso-spacerun:yes">&nbsp;</span>Respondent <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;</span>Respondent <input class="textbox" type="RADIO"
 VALUE="other" NAME="dv_allegationsWho"> <span
 style="mso-spacerun:yes">&nbsp;</span>Other</p>
 
@@ -693,11 +695,11 @@ style="mso-spacerun:yes">&nbsp;</span>Other</p>
 type of DV was alleged?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" VALUE="physical" NAME="dv_allegationsType">  Physical <INPUT
 TYPE="RADIO" VALUE="sexual" NAME="dv_allegationsType"> <span
-style="mso-spacerun:yes">&nbsp;</span>Sexual <INPUT TYPE="RADIO" VALUE="verbal"
+style="mso-spacerun:yes">&nbsp;</span>Sexual <input class="textbox" type="RADIO" VALUE="verbal"
 NAME="dv_allegationsType"> <span
 style="mso-spacerun:yes">&nbsp;</span>Verbal/Psychological/Threats <INPUT
 TYPE="RADIO" NAME="dv_allegationsType" VALUE="stalking"> <span
-style="mso-spacerun:yes">&nbsp;</span>Stalking <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;</span>Stalking <input class="textbox" type="RADIO"
 VALUE="other" NAME="dv_allegationsType"> <span
 style="mso-spacerun:yes">&nbsp;</span>Other</p>
 
@@ -705,13 +707,13 @@ style="mso-spacerun:yes">&nbsp;</span>Other</p>
 
 <p>Did the party who raised the allegation of DV request a
 restraining order?<span>&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
-TYPE="RADIO" VALUE="yes" NAME="dv_restraining">  Yes <INPUT TYPE="RADIO"
+TYPE="RADIO" VALUE="yes" NAME="dv_restraining">  Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="dv_restraining"> <span
 style="mso-spacerun:yes">&nbsp;</span>No</p>
 
 <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>If
 yes, was the request granted?<span>&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
-TYPE="RADIO" VALUE="yes" NAME="dv_restrainingGranted">  Yes <INPUT TYPE="RADIO"
+TYPE="RADIO" VALUE="yes" NAME="dv_restrainingGranted">  Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="dv_retrainingGranted"> <span
 style="mso-spacerun:yes">&nbsp;</span>No</p>
 
@@ -741,16 +743,16 @@ NAME="dv_restrainingOthers" ROWS="5" COLS="32"></TEXTAREA> </p>
 
 <p>Was a party with a protective order or reporting DV ordered
 to have contact with the alleged abuser?<span>&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
-TYPE="RADIO" NAME="dv_contact" VALUE="yes">  Yes <INPUT TYPE="RADIO"
+TYPE="RADIO" NAME="dv_contact" VALUE="yes">  Yes <input class="textbox" type="RADIO"
 NAME="dv_contact" VALUE="no"> <span>&nbsp;</span>No</p>
 
 <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>If
 yes, what were the conditions of the contact?<span>&nbsp;&nbsp; </span><INPUT
 TYPE="RADIO" NAME="dv_contactConditions" VALUE="mediation">  Mediation <INPUT
 TYPE="RADIO" NAME="dv_contactConditions" VALUE="classes"> <span
-style="mso-spacerun:yes">&nbsp;</span>Co-Parenting Classes <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;</span>Co-Parenting Classes <input class="textbox" type="RADIO"
 VALUE="exchange" NAME="dv_contactConditions"> <span
-style="mso-spacerun:yes">&nbsp;</span>Child Exchange <INPUT TYPE="RADIO"
+style="mso-spacerun:yes">&nbsp;</span>Child Exchange <input class="textbox" type="RADIO"
 VALUE="other" NAME="dv_contactConditions"> <span
 style="mso-spacerun:yes">&nbsp;</span>Other</p>
 
@@ -767,7 +769,7 @@ to take place?</p>
 <p>Was party protected or reporting DV accused by the alleged
 abuser of fabricating, exaggerating, alienating, or using the allegation for a
 tactical advantage in the litigation?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
-TYPE="RADIO" VALUE="yes" NAME="dv_advantage">  Yes <INPUT TYPE="RADIO"
+TYPE="RADIO" VALUE="yes" NAME="dv_advantage">  Yes <input class="textbox" type="RADIO"
 VALUE="no" NAME="dv_advantage"> <span>&nbsp;</span>No</p>
 
 
@@ -775,7 +777,7 @@ VALUE="no" NAME="dv_advantage"> <span>&nbsp;</span>No</p>
 <p>Did the judge or any court appointee make gestures or
 comments indicating that s/he was disbelieving, minimizing, or ridiculing the
 report of DV?<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><INPUT
-TYPE="RADIO" VALUE="yes" NAME="dv_gesture">  Yes <INPUT TYPE="RADIO" VALUE="no"
+TYPE="RADIO" VALUE="yes" NAME="dv_gesture">  Yes <input class="textbox" type="RADIO" VALUE="no"
 NAME="dv_gesture"> <span>&nbsp;</span>No</p>
 
 <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>If
@@ -788,8 +790,8 @@ NAME="dv_gestureDescription" ROWS="5" COLS="32"></TEXTAREA> </p>
 
 <p>Was a provision made for a party protected or reporting DV,
 to leave the courtroom ahead of the other party as a safety measure?<span
-style='mso-tab-count:1'>&nbsp; </span><INPUT TYPE="RADIO" VALUE="yes"
-NAME="dv_provision">  Yes <INPUT TYPE="RADIO" VALUE="no" NAME="dv_provision"> <span
+style='mso-tab-count:1'>&nbsp; </span><input class="textbox" type="RADIO" VALUE="yes"
+NAME="dv_provision">  Yes <input class="textbox" type="RADIO" VALUE="no" NAME="dv_provision"> <span
 style="mso-spacerun:yes">&nbsp;</span>No</p>
 
 
@@ -801,9 +803,9 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     Did anyone raise allegartions of child abuse at the hearing?
 
-    <input type="radio" name="childAbuse_raiseAllegation" value="Yes">Yes
+    <input class="textbox" type="radio" name="childAbuse_raiseAllegation" value="Yes">Yes
 
-    <input type="radio" name="childAbuse_raiseAllegation" value="No">No
+    <input class="textbox" type="radio" name="childAbuse_raiseAllegation" value="No">No
 
    
 
@@ -813,11 +815,11 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     If yes, who raised the allegartion?
 
-    <input type="radio" name="childAbuse_whoRaised" value="Petitioner">Petitioner
+    <input class="textbox" type="radio" name="childAbuse_whoRaised" value="Petitioner">Petitioner
 
-    <input type="radio" name="childAbuse_whoRaised" value="Respondent">Respondent
+    <input class="textbox" type="radio" name="childAbuse_whoRaised" value="Respondent">Respondent
 
-    <input type="radio" name="childAbuse_whoRaised" value="Other">Other
+    <input class="textbox" type="radio" name="childAbuse_whoRaised" value="Other">Other
 
    
 
@@ -827,15 +829,15 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     What type of child abuse was alleged?
 
-    <input type="radio" name="childAbuse_abuseType" value="Physical">Physical
+    <input class="textbox" type="radio" name="childAbuse_abuseType" value="Physical">Physical
 
-    <input type="radio" name="childAbuse_abuseType" value="Sexual">Sexual
+    <input class="textbox" type="radio" name="childAbuse_abuseType" value="Sexual">Sexual
 
-    <input type="radio" name="childAbuse_abuseType" value="Neglect">Neglect
+    <input class="textbox" type="radio" name="childAbuse_abuseType" value="Neglect">Neglect
 
-    <input type="radio" name="childAbuse_abuseType" value="Threat">Verbal/Psycological/Threats
+    <input class="textbox" type="radio" name="childAbuse_abuseType" value="Threat">Verbal/Psycological/Threats
 
-    <input type="radio" name="childAbuse_abuseType" value="Other">Other
+    <input class="textbox" type="radio" name="childAbuse_abuseType" value="Other">Other
 
     <br><br>
 
@@ -843,13 +845,13 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     What was the age of the alleged victim(s)?
 
-    <input type="radio" name="childAbuse_victimAge" value="0-4">0-4
+    <input class="textbox" type="radio" name="childAbuse_victimAge" value="0-4">0-4
 
-    <input type="radio" name="childAbuse_victimAge" value="5-10">5-10
+    <input class="textbox" type="radio" name="childAbuse_victimAge" value="5-10">5-10
 
-    <input type="radio" name="childAbuse_victimAge" value="11-14">11-14
+    <input class="textbox" type="radio" name="childAbuse_victimAge" value="11-14">11-14
 
-    <input type="radio" name="childAbuse_victimAge" value="Over 14">Over 14
+    <input class="textbox" type="radio" name="childAbuse_victimAge" value="Over 14">Over 14
 
    
 
@@ -859,11 +861,11 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     Was the allegation already reported to law enforcement?
 
-    <input type="radio" name="childAbuse_reportedToLawEnforcement" value="Yes">Yes
+    <input class="textbox" type="radio" name="childAbuse_reportedToLawEnforcement" value="Yes">Yes
 
-    <input type="radio" name="childAbuse_reportedToLawEnforcement" value="No">No
+    <input class="textbox" type="radio" name="childAbuse_reportedToLawEnforcement" value="No">No
 
-    <input type="radio" name="childAbuse_reportedToLawEnforcement" value="Unknown">Unknown
+    <input class="textbox" type="radio" name="childAbuse_reportedToLawEnforcement" value="Unknown">Unknown
 
    
 
@@ -873,25 +875,25 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     Was an investigative report of the abuse ordered by the court?
 
-    <input type="radio" name="childAbuse_abuseReportOrdered" value="Yes">Yes
+    <input class="textbox" type="radio" name="childAbuse_abuseReportOrdered" value="Yes">Yes
 
-    <input type="radio" name="childAbuse_abuseReportOrdered" value="No">No   
+    <input class="textbox" type="radio" name="childAbuse_abuseReportOrdered" value="No">No   
 
     <br>
 
         If yes, who was ordered to do an investigation?<br>
 
-        <input type="checkbox" name="childAbuse_whoInvestigated" value="MDIT">MDIT/Law enforcement<br>
+        <input class="textbox" type="checkbox" name="childAbuse_whoInvestigated" value="MDIT">MDIT/Law enforcement<br>
 
-        <input type="checkbox" name="childAbuse_whoInvestigated" value="CPS">Child Protective Services<br>
+        <input class="textbox" type="checkbox" name="childAbuse_whoInvestigated" value="CPS">Child Protective Services<br>
 
-        <input type="checkbox" name="childAbuse_whoInvestigated" value="probation">Probation department<br>
+        <input class="textbox" type="checkbox" name="childAbuse_whoInvestigated" value="probation">Probation department<br>
 
-        Family court evaluator/investigator name: <input type="text" name="childAbuse_whoInvestigated" value=""><br>
+        Family court evaluator/investigator name: <input class="textbox" type="text" name="childAbuse_whoInvestigated" value=""><br>
 
-        Family court mediator name: <input type="text" name="childAbuse_whoInvestigated" value=""><br>
+        Family court mediator name: <input class="textbox" type="text" name="childAbuse_whoInvestigated" value=""><br>
 
-        <input type="checkbox" name="childAbuse_whoInvestigated" value="Other">Other<br>
+        <input class="textbox" type="checkbox" name="childAbuse_whoInvestigated" value="Other">Other<br>
 
    
 
@@ -901,11 +903,11 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     If the allegation was of sexual abuse, did the court specifically order a FC§3118 investigation?<br>
 
-    <input type="radio" name="childAbuse_FC" value="Yes">Yes
+    <input class="textbox" type="radio" name="childAbuse_FC" value="Yes">Yes
 
-    <input type="radio" name="childAbuse_FC" value="No">No   
+    <input class="textbox" type="radio" name="childAbuse_FC" value="No">No   
 
-    Name of evaluator/investigator chosen?: <input type="text" name="childAbuse_FC" value="">   
+    Name of evaluator/investigator chosen?: <input class="textbox" type="text" name="childAbuse_FC" value="">   
 
    
 
@@ -915,9 +917,9 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     Was the child ordered to have contact with the alleged abuser?
 
-    <input type="radio" name="childAbuse_orderedContact" value="Yes">Yes
+    <input class="textbox" type="radio" name="childAbuse_orderedContact" value="Yes">Yes
 
-    <input type="radio" name="childAbuse_orderedContact" value="No">No       
+    <input class="textbox" type="radio" name="childAbuse_orderedContact" value="No">No       
 
    
 
@@ -927,17 +929,17 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
         If yes, what were the conditions of the contact?<br>
 
-        <input type="checkbox" name="childAbuse_contactConditions" value="unsupervised">unsupervised contact<br>
+        <input class="textbox" type="checkbox" name="childAbuse_contactConditions" value="unsupervised">unsupervised contact<br>
 
-        <input type="checkbox" name="childAbuse_contactConditions" value="proSupervision">Contact supervised by professional<br>
+        <input class="textbox" type="checkbox" name="childAbuse_contactConditions" value="proSupervision">Contact supervised by professional<br>
 
-        <input type="checkbox" name="childAbuse_contactConditions" value="nonproSupervision">Contact supervised by non-professional neutral person<br>   
+        <input class="textbox" type="checkbox" name="childAbuse_contactConditions" value="nonproSupervision">Contact supervised by non-professional neutral person<br>   
 
-        <input type="checkbox" name="childAbuse_contactConditions" value="familySupervision">Contact supervised by family member/friend<br>
+        <input class="textbox" type="checkbox" name="childAbuse_contactConditions" value="familySupervision">Contact supervised by family member/friend<br>
 
-        <input type="checkbox" name="childAbuse_contactConditions" value="parent">Parent/Child therapy<br>
+        <input class="textbox" type="checkbox" name="childAbuse_contactConditions" value="parent">Parent/Child therapy<br>
 
-        <input type="checkbox" name="childAbuse_contactConditions" value="other">Other<br>
+        <input class="textbox" type="checkbox" name="childAbuse_contactConditions" value="other">Other<br>
 
    
 
@@ -947,9 +949,9 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     Did the party who raised the allegation request an order protecting the child(ren)?
 
-    <input type="radio" name="childAbuse_requestProtection" value="Yes">Yes
+    <input class="textbox" type="radio" name="childAbuse_requestProtection" value="Yes">Yes
 
-    <input type="radio" name="childAbuse_requestProtection" value="No">No   
+    <input class="textbox" type="radio" name="childAbuse_requestProtection" value="No">No   
 
    
 
@@ -957,9 +959,9 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
         If yes, was the request granted?
 
-        <input type="radio" name="childAbuse_requestGranted" value="Yes">Yes
+        <input class="textbox" type="radio" name="childAbuse_requestGranted" value="Yes">Yes
 
-        <input type="radio" name="childAbuse_requestGranted" value="No">No   
+        <input class="textbox" type="radio" name="childAbuse_requestGranted" value="No">No   
 
     <br><br>
 
@@ -967,7 +969,7 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
         If the request was not granted, what reason was given for the denial?<br>
 
-        <input type="text" name="childAbuse_denialReason" value=""><br>
+        <input class="textbox" type="text" name="childAbuse_denialReason" value=""><br>
 
        
 
@@ -977,9 +979,9 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     Was the party reporting child abuse accused by anyone of bad motive, such as fabricating, exaggerating, alienating or using the allegation for a tactical advantage in the litigation?
 
-    <input type="radio" name="childAbuse_badMotive" value="Yes">Yes
+    <input class="textbox" type="radio" name="childAbuse_badMotive" value="Yes">Yes
 
-    <input type="radio" name="childAbuse_badMotive" value="No">No   
+    <input class="textbox" type="radio" name="childAbuse_badMotive" value="No">No   
 
    
 
@@ -989,7 +991,7 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
         If yes, who accused the reporting party of bad motive?
 
-        <input type="text" name="childAbuse_whoAccused" value=""><br>
+        <input class="textbox" type="text" name="childAbuse_whoAccused" value=""><br>
 
        
 
@@ -999,9 +1001,9 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
     Did the judge or any court appointee make gestures or comments indicating that s/he was disbelieving, minimizing, or ridiculing the report of child abuse?
 
-    <input type="radio" name="childAbuse_makeGestures" value="Yes">Yes
+    <input class="textbox" type="radio" name="childAbuse_makeGestures" value="Yes">Yes
 
-    <input type="radio" name="childAbuse_makeGestures" value="No">No   
+    <input class="textbox" type="radio" name="childAbuse_makeGestures" value="No">No   
 
    
 
@@ -1009,166 +1011,167 @@ style="mso-spacerun:yes">&nbsp;</span>No</p>
 
         If yes, describe:
 
-        <input type="text" name="childAbuse_makeGesturesDescr" value=""><br>
+        <input class="textbox" type="text" name="childAbuse_makeGesturesDescr" value=""><br>
 			
 <!--Keegan's Code-->
 
 <b><u>CHILD'S INPUT</u></b><br><br>
 
 Did anyone request that a child involved in the litigation appear before the court to provide input and/or voice his/her wishes?
-<input type="radio" name="childinput_request" value="yes">Yes
-<input type="radio" name="childinput_request" value="no">No
+<input class="textbox" type="radio" name="childinput_request" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_request" value="no">No
 <br><br>
 
 Who Made the request? 
-<input type="radio" name="childinput_request" value="petitioner">Petitioner
-<input type="radio" name="childinput_request" value="respondent">Respondent
-<input type="radio" name="childinput_request" value="childsAttorney">Child's Attorney
-<input type="radio" name="childinput_request" value="other">Other
+<input class="textbox" type="radio" name="childinput_request" value="petitioner">Petitioner
+<input class="textbox" type="radio" name="childinput_request" value="respondent">Respondent
+<input class="textbox" type="radio" name="childinput_request" value="childsAttorney">Child's Attorney
+<input class="textbox" type="radio" name="childinput_request" value="other">Other
 <br><br>
 
 How did the judge respond to the request?
-<input type="radio" name="childinput_response" value="agreed">Agreed
-<input type="radio" name="childinput_response" value="denied">Denied
-<input type="radio" name="childinput_response" value="reserved">Reserved the issue for a future hearing
+<input class="textbox" type="radio" name="childinput_response" value="agreed">Agreed
+<input class="textbox" type="radio" name="childinput_response" value="denied">Denied
+<input class="textbox" type="radio" name="childinput_response" value="reserved">Reserved the issue for a future hearing
 <br><br>
 
 If an attorney was present to represent the child(ren) of the parties, how was that person identified?
-<input type="radio" name="childinput_indentify" value="childsAttorney">Child's Attorney
-<input type="radio" name="childinput_indentify" value="guardianAdLitem">Guardian Ad Litem
-<input type="radio" name="childinput_indentify" value="bestInterestAttorney">Best Interest Attorney
+<input class="textbox" type="radio" name="childinput_indentify" value="childsAttorney">Child's Attorney
+<input class="textbox" type="radio" name="childinput_indentify" value="guardianAdLitem">Guardian Ad Litem
+<input class="textbox" type="radio" name="childinput_indentify" value="bestInterestAttorney">Best Interest Attorney
 <br><br>
 
 Where was s/he physically positioned in the courtroom?
-<input type="text" name="childinput_position">
+<input class="textbox" type="text" name="childinput_position">
 <br><br>
 
 Did the child's attorney appear to be aligned with one of the parties, or prejudiced against one of the parties?
-<input type="radio" name="childinput_attorneyAppear" value="yes">Yes
-<input type="radio" name="childinput_attorneyAppear" value="no">No
+<input class="textbox" type="radio" name="childinput_attorneyAppear" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_attorneyAppear" value="no">No
 <br><br>
 
 If yes, what did the child's attorney do or say to give the appearance that s/he favored or disfavored one of the parties?
-<input type="text" name="childinput_attorneyDoSay">
+<input class="textbox" type="text" name="childinput_attorneyDoSay">
 <br><br>
 
 Did the child's attorney present a report or give input to the court about the child?
-<input type="radio" name="childinput_attorneyReport" value="yes">Yes
-<input type="radio" name="childinput_attorneyReport" value="no">No
+<input class="textbox" type="radio" name="childinput_attorneyReport" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_attorneyReport" value="no">No
 <br><br>
 
 If yes, was the child present to testify/be examined by the court?
-<input type="radio" name="childinput_childPresent" value="yes">Yes
-<input type="radio" name="childinput_childPresent" value="no">No
+<input class="textbox" type="radio" name="childinput_childPresent" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_childPresent" value="no">No
 <br><br>
 
 Did the court receive information from the child's attorney over the objection of one of the parties?
-<input type="radio" name="childinput_receiveInfo" value="yes">Yes
-<input type="radio" name="childinput_receiveInfo" value="no">No
+<input class="textbox" type="radio" name="childinput_receiveInfo" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_receiveInfo" value="no">No
 <br><br>
 
 If the child gave input (testimony) to the court?
 <br><br>
 
 What was the age of the child?
-<input type="radio" name="childinput_ageOfChild" value="10">10
-<input type="radio" name="childinput_ageOfChild" value="10to14">10-14
-<input type="radio" name="childinput_ageOfChild" value="over14">over 14
+<input class="textbox" type="radio" name="childinput_ageOfChild" value="10">10
+<input class="textbox" type="radio" name="childinput_ageOfChild" value="10to14">10-14
+<input class="textbox" type="radio" name="childinput_ageOfChild" value="over14">over 14
 <br><br>
 
 How was the examination conducted?
 <br><br>
 
-<input type="radio" name="childinput_how" value="witness">Examined on the witness stand
+<input class="textbox" type="radio" name="childinput_how" value="witness">Examined on the witness stand
 <br><br>
 
 Did anyone object to the child being questioned in open court?
-<input type="radio" name="childinput_witnessObject" value="yes">Yes
-<input type="radio" name="childinput_witnessObject" value="no">No
+<input class="textbox" type="radio" name="childinput_witnessObject" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_witnessObject" value="no">No
 <br><br>
 
 If yes, who objected?
-<input type="text" name="childinput_witnessWhoObject">
+<input class="textbox" type="text" name="childinput_witnessWhoObject">
 <br><br>
 
 Was the child under oath?
-<input type="radio" name="childinput_witnessChildOath" value="yes">Yes
-<input type="radio" name="childinput_witnessChildOath" value="no">No
+<input class="textbox" type="radio" name="childinput_witnessChildOath" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_witnessChildOath" value="no">No
 <br><br>
 
 Who questioned the child?
-<input type="radio" name="childinput_witnessQuestioned" value="judge">Judge
-<input type="radio" name="childinput_witnessQuestioned" value="childsAttorney">Child's Attorney
-<input type="radio" name="childinput_witnessQuestioned" value="other">Other
-<input type="radio" name="childinput_witnessQuestioned" value="petitioner">Petitioner/atty.
-<input type="radio" name="childinput_witnessQuestioned" value="respondent">Respondent/atty.
+<input class="textbox" type="radio" name="childinput_witnessQuestioned" value="judge">Judge
+<input class="textbox" type="radio" name="childinput_witnessQuestioned" value="childsAttorney">Child's Attorney
+<input class="textbox" type="radio" name="childinput_witnessQuestioned" value="other">Other
+<input class="textbox" type="radio" name="childinput_witnessQuestioned" value="petitioner">Petitioner/atty.
+<input class="textbox" type="radio" name="childinput_witnessQuestioned" value="respondent">Respondent/atty.
 <br><br>
 
 Was either party denied opertunity to question the child?
-<input type="radio" name="childinput_witnessPartyDenied" value="yes">Yes
-<input type="radio" name="childinput_witnessPartyDenied" value="no">No
+<input class="textbox" type="radio" name="childinput_witnessPartyDenied" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_witnessPartyDenied" value="no">No
 <br><br>
 
 If yes, who was prevented form questioing the child?
-<input type="radio" name="childinput_witnessPrevent" value="petitioner">Petitioner
-<input type="radio" name="childinput_witnessPrevent" value="respondent">Respondent
+<input class="textbox" type="radio" name="childinput_witnessPrevent" value="petitioner">Petitioner
+<input class="textbox" type="radio" name="childinput_witnessPrevent" value="respondent">Respondent
 <br><br>
 
 How did the child react to the examination?
-<input type="text" name="childinput_witnessReact">
+<input class="textbox" type="text" name="childinput_witnessReact">
 <br><br>
 
-<input type="radio" name="childinput_how" value="chambers">Questioned in chambers
+<input class="textbox" type="radio" name="childinput_how" value="chambers">Questioned in chambers
 <br><br>
 
 Did any part object to the chid being questioned in the chambers?
-<input type="radio" name="childinput_chambersObject" value="yes">Yes
-<input type="radio" name="childinput_chambersObject" value="no">No
+<input class="textbox" type="radio" name="childinput_chambersObject" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_chambersObject" value="no">No
 <br><br>
 
 Who went into the chambers for questioning?
-<input type="radio" name="childinput_chambersQuestioned" value="petitioner">Petitioner
-<input type="radio" name="childinput_chambersQuestioned" value="petitionerAttorney">Petitioner's attorney
-<input type="radio" name="childinput_chambersQuestioned" value="respondent">Respondent
-<input type="radio" name="childinput_chambersQuestioned" value="respondentAttorney">Respondent's attorney
-<input type="radio" name="childinput_chambersQuestioned" value="childsAttorney">Child's Attorney
-<input type="radio" name="childinput_chambersQuestioned" value="courtReporter">Court Reporter
+<input class="textbox" type="radio" name="childinput_chambersQuestioned" value="petitioner">Petitioner
+<input class="textbox" type="radio" name="childinput_chambersQuestioned" value="petitionerAttorney">Petitioner's attorney
+<input class="textbox" type="radio" name="childinput_chambersQuestioned" value="respondent">Respondent
+<input class="textbox" type="radio" name="childinput_chambersQuestioned" value="respondentAttorney">Respondent's attorney
+<input class="textbox" type="radio" name="childinput_chambersQuestioned" value="childsAttorney">Child's Attorney
+<input class="textbox" type="radio" name="childinput_chambersQuestioned" value="courtReporter">Court Reporter
 <br><br>
 
 If a court reporter was present for the in-chambers questioning, did the court make an order preventing the parties from accessing a record of the examination?
-<input type="radio" name="childinput_chambersOrderPrevent" value="yes">Yes
-<input type="radio" name="childinput_chambersOrderPrevent" value="no">No
+<input class="textbox" type="radio" name="childinput_chambersOrderPrevent" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_chambersOrderPrevent" value="no">No
 <br><br>
 
-<input type="radio" name="childinput_how" value="remote">Questioned by remote access
+<input class="textbox" type="radio" name="childinput_how" value="remote">Questioned by remote access
 <br><br>
 
 Was the child placed under oath?
-<input type="radio" name="childinput_remoteOath" value="yes">Yes
-<input type="radio" name="childinput_remoteOath" value="no">No
+<input class="textbox" type="radio" name="childinput_remoteOath" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_remoteOath" value="no">No
 <br><br>
 
 Who questioned the child?
-<input type="radio" name="childinput_remoteQuestioned" value="judge">Judge
-<input type="radio" name="childinput_remoteQuestioned" value="childsAttorney">Child's Attorney
-<input type="radio" name="childinput_remoteQuestioned" value="other">Other
-<input type="radio" name="childinput_remoteQuestioned" value="petitioner">Petitioner/atty.
-<input type="radio" name="childinput_remoteQuestioned" value="respondent">Respondent/atty.
+<input class="textbox" type="radio" name="childinput_remoteQuestioned" value="judge">Judge
+<input class="textbox" type="radio" name="childinput_remoteQuestioned" value="childsAttorney">Child's Attorney
+<input class="textbox" type="radio" name="childinput_remoteQuestioned" value="other">Other
+<input class="textbox" type="radio" name="childinput_remoteQuestioned" value="petitioner">Petitioner/atty.
+<input class="textbox" type="radio" name="childinput_remoteQuestioned" value="respondent">Respondent/atty.
 <br><br>
 
 Was either part denied the oppportunity to question the child?
-<input type="radio" name="childinput_remotePartyDenied" value="yes">Yes
-<input type="radio" name="childinput_remotePartyDenied" value="no">No
+<input class="textbox" type="radio" name="childinput_remotePartyDenied" value="yes">Yes
+<input class="textbox" type="radio" name="childinput_remotePartyDenied" value="no">No
 <br><br>
 
 If yes, who was prevented from questioning the child?
-<input type="radio" name="childinput_remotePrevent" value="petitioner">Petitioner
-<input type="radio" name="childinput_remotePrevent" value="respondent">Respondent
+<input class="textbox" type="radio" name="childinput_remotePrevent" value="petitioner">Petitioner
+<input class="textbox" type="radio" name="childinput_remotePrevent" value="respondent">Respondent
 <br><br>
 
 How did the child react to the examination?
-<input type="text" name="childinput_remoteReact">
-
+<input class="textbox" type="text" name="childinput_remoteReact"><br><br>
+<center><input type="submit" name="submit" value="Submit Form" /></center>
+</form>
 
   		</div>
 	</div>
