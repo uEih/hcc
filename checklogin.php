@@ -1,39 +1,38 @@
 <?php
+	
+	//opens database
+   class MyDB extends SQLite3
+   {
+      function __construct()
+      {
+         $this->open('UserAccounts.db');
+      }
+   }
+   $db = new MyDB();
 
-$host="localhost"; // Host name 
-$username=""; // Mysql username 
-$password=""; // Mysql password 
-$db_name="test"; // Database name 
-$tbl_name="members"; // Table name 
+   //username and pw from index.html
+   $user = $_REQUEST['myusername'] ; 
+   $pw = $_REQUEST['mypassword'] ;
 
-// Connect to server and select databse.
-mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
-mysql_select_db("$db_name")or die("cannot select DB");
+   //if there is a database, it opens.
+   if(!$db){
+      echo $db->lastErrorMsg();
+   } else {
+      echo "Opened database successfully\n";
+   }
 
-// username and password sent from form 
-$myusername=$_POST['myusername']; 
-$mypassword=$_POST['mypassword']; 
+   $result = $db->query("SELECT * FROM login WHERE user = '$user' AND password = '$pw'");
+   $fromDB = $result->fetchArray();
+   if ($fromDB['user'] == $user) {
+	 //$_SESSION['loggedin'] = true;
+     echo "It worked";
+     header("location:splash.html");
+   };
 
-// To protect MySQL injection (more detail about MySQL injection)
-$myusername = stripslashes($myusername);
-$mypassword = stripslashes($mypassword);
-$myusername = mysql_real_escape_string($myusername);
-$mypassword = mysql_real_escape_string($mypassword);
-$sql="SELECT * FROM $tbl_name WHERE username='$myusername' and password='$mypassword'";
-$result=mysql_query($sql);
+   if($fromDB['user'] != $user){
+   	  header("location:index2.html");
+      echo "It failed";
+      exit;
+   };
 
-// Mysql_num_row is counting table row
-$count=mysql_num_rows($result);
-
-// If result matched $myusername and $mypassword, table row must be 1 row
-if($count==1){
-
-// Register $myusername, $mypassword and redirect to file "login_success.php"
-session_register("myusername");
-session_register("mypassword"); 
-header("location:login_success.php");
-}
-else {
-echo "Wrong Username or Password";
-}
 ?>
